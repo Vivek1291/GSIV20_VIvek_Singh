@@ -32,3 +32,9 @@ export const imageBasePathReducer = (state='', action) => {
         return action.payload
     return state
 }
+
+export const searchInputValueReducer = (state='', action) => {
+    if(action.type === "SEARCH_INPUT_VALUE")
+        return action.payload
+    return state
+}

@@ -35,7 +35,6 @@ class Cards extends Component {
 }
 
 function mapStateToProps(state) {
-    console.log(state)
     return {
         _imageBasePathReducer: state.imageBasePathReducer
     };

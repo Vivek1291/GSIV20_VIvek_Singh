@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
 
 import { homePageDataReducer } from 'reducer/homeReducer';
-import { searchDataReducer, isSearchReducer, showSearchBarReducer,  navTitleReducer, imageBasePathReducer} from 'reducer/searchReducer'
+import { searchDataReducer, isSearchReducer, showSearchBarReducer,  navTitleReducer, imageBasePathReducer, searchInputValueReducer} from 'reducer/searchReducer'
 
 const allReducers = combineReducers(
     {
@@ -10,7 +10,8 @@ const allReducers = combineReducers(
         isSearchReducer: isSearchReducer,
         showSearchBarReducer: showSearchBarReducer,
         navTitleReducer: navTitleReducer,
-        imageBasePathReducer: imageBasePathReducer
+        imageBasePathReducer: imageBasePathReducer,
+        searchInputValueReducer: searchInputValueReducer
     }
 );
 

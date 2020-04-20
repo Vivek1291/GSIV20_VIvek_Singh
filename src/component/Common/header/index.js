@@ -25,7 +25,6 @@ class Header extends Component {
         }
         Utility.ajaxCall(reqObj).then((res) => {
             if(res.data && res.data.status_code !== 7 && res.data.status_code !== 34) {
-                console.log(res.data)
                 this.props._imageBasePathAction(res.data);
             }
             else {

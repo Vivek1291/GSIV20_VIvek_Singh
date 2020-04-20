@@ -32,3 +32,11 @@ export const imageBasePathAction = (val) => {
         payload: val
     }
 }
+
+
+export const searchInputValueAction = (val) => {
+    return {
+        type: "SEARCH_INPUT_VALUE",
+        payload: val
+    }
+}

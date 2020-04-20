@@ -6,16 +6,14 @@ import 'css/listContainer/listContainer.css';
 
 
 class ListItems extends Component {
+    constructor() {
+        super();
+        this.state = {
+            listsArr: []
+        }
+    }
     render() {
-        console.log(this.props.data)
-        const {data} = this.props;
-        let listsArr;
-        if(data && data.results) {
-            listsArr = data.results
-        }
-        else if(data && data.items){
-            listsArr = data.items
-        }
+        const {listsArr} = this.props;
         return (
             <div className="list-containers clearfix">
                 {
