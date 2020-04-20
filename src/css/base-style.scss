@@ -1,0 +1,37 @@
+@import './global/global.scss';
+
+* {
+    font-size: $fontSize-default;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.display-flex {
+    display: flex;
+}
+.flex-vertical-center {
+    align-items: center;
+
+}
+.flex-horizontal-center {
+    justify-content: center;
+}
+.shadow-1 {
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.clearfix {
+    margin-bottom: 10px;
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+img {
+    max-width: 100%;
+}

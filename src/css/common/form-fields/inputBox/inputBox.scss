@@ -1,0 +1,21 @@
+@import '../../../global/global.scss';
+
+.input-box-container {
+    width: 300px;
+    position: relative;
+    .input-box {
+        width: 100%;
+        border: none;
+        background-color: $disabled;
+        color: $lightGrey;
+        padding: 7px 10px 7px 30px;
+        border-radius: 4px;
+    }
+    .icon-left {
+        position: absolute;
+        left: 4px;
+        top: 5px;
+        font-size: 20px;
+        color: $lightGrey;
+    }
+}

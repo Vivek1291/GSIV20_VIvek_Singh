@@ -1,0 +1,32 @@
+.card {
+  border-radius: 4px;
+  min-height: 340px; }
+  .card .image-container {
+    min-height: 250px;
+    max-height: 250px;
+    background-color: #dfdfdf;
+    overflow: hidden; }
+  .card .link-container {
+    text-decoration: none;
+    display: block; }
+  .card .content {
+    padding: 5px 5px 15px; }
+    .card .content .caption {
+      margin: 4px 0; }
+      .card .content .caption .left-content {
+        flex: 1;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding-right: 10px;
+        color: #4a4a4a; }
+      .card .content .caption .right-content {
+        color: #9b9b9b;
+        font-size: 12px; }
+    .card .content .description {
+      color: #9b9b9b;
+      font-size: 12px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; }

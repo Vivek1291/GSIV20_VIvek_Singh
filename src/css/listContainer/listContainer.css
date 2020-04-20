@@ -1,0 +1,15 @@
+.list-containers {
+  padding: 10px; }
+  .list-containers .list-contents {
+    float: left;
+    width: 50%;
+    padding: 7px 5px; }
+    @media screen and (min-width: 768px) {
+      .list-containers .list-contents {
+        width: 33.33%; } }
+    @media screen and (min-width: 901px) {
+      .list-containers .list-contents {
+        width: 25%; } }
+    @media screen and (min-width: 1024px) {
+      .list-containers .list-contents {
+        width: 20%; } }

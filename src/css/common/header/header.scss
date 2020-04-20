@@ -1,0 +1,25 @@
+@import '../../global/global.scss';
+
+.header-content {
+    position: relative;
+    height: 50px;
+    background-color: $white;
+
+    nav {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 50px;
+        padding: 0 15px;
+        background-color: $white;
+        .header-left-cotent {
+            flex: 1;
+        }
+        .header-right-content {
+            .material-icons {
+                color: $black;
+            }
+        }
+    }
+}

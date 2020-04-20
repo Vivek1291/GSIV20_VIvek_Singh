@@ -1,0 +1,16 @@
+.header-content {
+  position: relative;
+  height: 50px;
+  background-color: #fff; }
+  .header-content nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 50px;
+    padding: 0 15px;
+    background-color: #fff; }
+    .header-content nav .header-left-cotent {
+      flex: 1; }
+    .header-content nav .header-right-content .material-icons {
+      color: #000; }

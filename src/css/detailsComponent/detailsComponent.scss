@@ -1,0 +1,31 @@
+@import '../global/global.scss';
+
+.detail-page-layout {
+    padding: 15px;
+    .detail-page-cntr {
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+    .detail-page-left-container {
+        padding-right: 10px;
+        .details-page-image-cntr {
+            background-color: $disabled;
+            text-align: center;
+            @media screen and (min-width: 768px) {
+                min-width: 150px;
+                min-height: 200px;
+            }
+        }
+    }
+    .detail-page-right-container {
+        flex: 1;
+        .detail-page-title {
+            font-size: 16px;
+        }
+        .add-spacing {
+            padding: 2px 0;
+        }
+
+    }
+}
